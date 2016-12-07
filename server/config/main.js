@@ -3,6 +3,8 @@ module.exports = {
   secret: 'super secret passphrase',
   // Database connection information
   database: 'mongodb://localhost:27017',
+  // Url that access API
+  clientUrl: 'http://localhost:8080',
   // Setting port for server
   port: 3000,
   // Configuring Mailgun API for sending transactional email
